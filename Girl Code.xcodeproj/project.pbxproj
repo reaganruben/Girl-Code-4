@@ -17,6 +17,7 @@
 		845ECAA4289986510090800D /* Girl_CodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECAA3289986510090800D /* Girl_CodeTests.swift */; };
 		845ECAAE289986510090800D /* Girl_CodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECAAD289986510090800D /* Girl_CodeUITests.swift */; };
 		845ECAB0289986510090800D /* Girl_CodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECAAF289986510090800D /* Girl_CodeUITestsLaunchTests.swift */; };
+		84BB5D2F28998D84006E645A /* font in Resources */ = {isa = PBXBuildFile; fileRef = 84BB5D2E28998D84006E645A /* font */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		845ECAA9289986510090800D /* Girl CodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Girl CodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845ECAAD289986510090800D /* Girl_CodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Girl_CodeUITests.swift; sourceTree = "<group>"; };
 		845ECAAF289986510090800D /* Girl_CodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Girl_CodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84BB5D2E28998D84006E645A /* font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = font; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		845ECA882899864D0090800D /* Girl Code */ = {
 			isa = PBXGroup;
 			children = (
+				84BB5D2E28998D84006E645A /* font */,
 				845ECA892899864D0090800D /* AppDelegate.swift */,
 				845ECA8B2899864D0090800D /* SceneDelegate.swift */,
 				845ECA8D2899864D0090800D /* ViewController.swift */,
@@ -237,6 +240,7 @@
 				845ECA99289986500090800D /* LaunchScreen.storyboard in Resources */,
 				845ECA96289986500090800D /* Assets.xcassets in Resources */,
 				845ECA912899864D0090800D /* Main.storyboard in Resources */,
+				84BB5D2F28998D84006E645A /* font in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
