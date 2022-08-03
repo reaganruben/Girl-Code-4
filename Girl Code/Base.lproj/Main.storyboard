@@ -40,38 +40,63 @@
             </objects>
             <point key="canvasLocation" x="-723" y="-921"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="ecx-QP-Yg3">
             <objects>
-                <viewController id="iRn-su-Gnf" sceneMemberID="viewController">
+                <viewController id="iRn-su-Gnf" customClass="MainViewController" customModule="Girl_Code" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3oJ-3J-RaA">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v4l-ea-0ua">
+                                <rect key="frame" x="177" y="408" width="60" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                <connections>
+                                    <action selector="loginPressed:" destination="iRn-su-Gnf" eventType="touchUpInside" id="2Mm-Un-4yj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hlU-9e-Xrc">
+                                <rect key="frame" x="170" y="469" width="75" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
+                                <connections>
+                                    <action selector="signUpPressed:" destination="iRn-su-Gnf" eventType="touchUpInside" id="py5-kM-Qr7"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Knk-pN-bxn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Gh5-gh-281"/>
+                    <connections>
+                        <segue destination="aQz-14-wfY" kind="show" identifier="goToSignUp" id="yke-Wl-B0Z"/>
+                        <segue destination="Lxs-8U-iRg" kind="show" identifier="goToLogin" id="Kfh-SN-la8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ubR-JF-qSz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13" y="-921"/>
+            <point key="canvasLocation" x="-13.043478260869566" y="-921.42857142857133"/>
         </scene>
-        <!--View Controller-->
+        <!--Login-->
         <scene sceneID="m8t-uj-jed">
             <objects>
-                <viewController id="Lxs-8U-iRg" sceneMemberID="viewController">
+                <viewController id="Lxs-8U-iRg" customClass="LoginViewController" customModule="Girl_Code" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vjq-AI-evY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="1OU-uB-FCo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Login" id="ecA-Mc-IUe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ptd-q5-fbd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="683" y="-1280"/>
+            <point key="canvasLocation" x="748" y="-1280"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up-->
         <scene sceneID="h6B-kB-F3H">
             <objects>
                 <viewController id="aQz-14-wfY" sceneMemberID="viewController">
@@ -81,10 +106,11 @@
                         <viewLayoutGuide key="safeArea" id="EkL-r7-5Nq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Sign Up" id="i1q-7Q-Gsq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yu2-On-96D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="683" y="-609"/>
+            <point key="canvasLocation" x="748" y="-609"/>
         </scene>
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
