@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YcL-1Z-TAk">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
@@ -197,7 +197,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
                         <constraints>
-                            <constraint firstItem="VQQ-FK-nP0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2.90179" id="147-ij-eNt"/>
                             <constraint firstItem="VQQ-FK-nP0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Jz9-cX-eRu"/>
                             <constraint firstItem="POF-UJ-x0x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QqI-JK-aCr"/>
                             <constraint firstAttribute="bottom" secondItem="POF-UJ-x0x" secondAttribute="bottom" id="pWd-4l-gue"/>

@@ -17,8 +17,6 @@ class ViewController: UIViewController
         super.viewDidLoad()
     }
 
-    //override func performSegue(withIdentifier identifier: String, sender: Any?) {
-        <#code#>
-    }
-}
+    
 
+}
