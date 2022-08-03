@@ -143,13 +143,6 @@
                                 <rect key="frame" x="304" y="88" width="90" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Girl Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMx-xK-qas">
-                                <rect key="frame" x="54" y="107" width="278" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="48"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83G-TR-tI0">
                                 <rect key="frame" x="54" y="800" width="52" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -174,16 +167,50 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title=" "/>
                             </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="POF-UJ-x0x">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VQQ-FK-nP0">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2600"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2600" id="NVh-8L-Azf"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="VQQ-FK-nP0" secondAttribute="trailing" id="0Jj-uJ-Jbq"/>
+                                    <constraint firstItem="VQQ-FK-nP0" firstAttribute="leading" secondItem="POF-UJ-x0x" secondAttribute="leading" id="L0X-I5-n2m"/>
+                                    <constraint firstItem="VQQ-FK-nP0" firstAttribute="top" secondItem="POF-UJ-x0x" secondAttribute="top" id="Zob-Np-4fd"/>
+                                    <constraint firstAttribute="bottom" secondItem="VQQ-FK-nP0" secondAttribute="bottom" id="ynb-JI-lIX"/>
+                                </constraints>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Girl Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMx-xK-qas">
+                                <rect key="frame" x="68" y="107" width="278" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="48"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="VQQ-FK-nP0" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="2.90179" id="147-ij-eNt"/>
+                            <constraint firstItem="VQQ-FK-nP0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Jz9-cX-eRu"/>
+                            <constraint firstItem="POF-UJ-x0x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="QqI-JK-aCr"/>
+                            <constraint firstAttribute="bottom" secondItem="POF-UJ-x0x" secondAttribute="bottom" id="pWd-4l-gue"/>
+                            <constraint firstItem="POF-UJ-x0x" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="qiw-e8-gfY"/>
+                            <constraint firstItem="POF-UJ-x0x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rSB-vk-DXM"/>
+                        </constraints>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="6XF-R2-ifd" appends="YES" id="vlk-tU-xFB"/>
                             <outletCollection property="gestureRecognizers" destination="bFG-8Y-BvB" appends="YES" id="tvZ-hO-8J6"/>
                         </connections>
                     </view>
                     <navigationItem key="navigationItem" title="Home" id="npk-c0-MzU"/>
+                    <size key="freeformSize" width="414" height="896"/>
                     <connections>
                         <outlet property="mainTitle" destination="CMx-xK-qas" id="cHj-p5-4D4"/>
                         <segue destination="cNR-Kd-zby" kind="show" identifier="goToSecond" id="BPl-Pb-H1k"/>
@@ -195,7 +222,7 @@
             </objects>
             <point key="canvasLocation" x="-13.043478260869566" y="69.642857142857139"/>
         </scene>
-        <!--Schollarships-->
+        <!--Scholarships-->
         <scene sceneID="gaC-dS-iwh">
             <objects>
                 <viewController id="cNR-Kd-zby" customClass="SecondViewController" customModule="Girl_Code" customModuleProvider="target" sceneMemberID="viewController">
@@ -235,7 +262,7 @@
                         <viewLayoutGuide key="safeArea" id="Za1-eG-8g1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Schollarships" id="dLU-U3-e90"/>
+                    <navigationItem key="navigationItem" title="Scholarships" id="dLU-U3-e90"/>
                     <connections>
                         <segue destination="i1m-R3-l5r" kind="show" id="aYU-Jv-STx"/>
                     </connections>
