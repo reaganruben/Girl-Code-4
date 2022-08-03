@@ -22,9 +22,71 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="my2-MK-1ZI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-739" y="70"/>
+            <point key="canvasLocation" x="-722" y="70"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Gsp-KC-q16">
+            <objects>
+                <navigationController id="vca-Qb-Iph" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Swy-ap-x3K">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="iRn-su-Gnf" kind="relationship" relationship="rootViewController" id="Lra-Lo-LBp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X5D-j7-8yb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-723" y="-921"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="ecx-QP-Yg3">
+            <objects>
+                <viewController id="iRn-su-Gnf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3oJ-3J-RaA">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Knk-pN-bxn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Gh5-gh-281"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubR-JF-qSz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13" y="-921"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m8t-uj-jed">
+            <objects>
+                <viewController id="Lxs-8U-iRg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vjq-AI-evY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="1OU-uB-FCo"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ptd-q5-fbd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="683" y="-1280"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="h6B-kB-F3H">
+            <objects>
+                <viewController id="aQz-14-wfY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R11-Ii-XRj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="EkL-r7-5Nq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yu2-On-96D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="683" y="-609"/>
+        </scene>
+        <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Girl_Code" customModuleProvider="target" sceneMemberID="viewController">
@@ -32,15 +94,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Girl Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMx-xK-qas">
-                                <rect key="frame" x="56" y="44" width="278" height="84"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="48"/>
-                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8L-Cx-ymc">
-                                <rect key="frame" x="92" y="121" width="231" height="183"/>
+                                <rect key="frame" x="92" y="264" width="231" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Welcome to Girl Code!">
@@ -86,6 +141,20 @@
                                     </attributedString>
                                 </buttonConfiguration>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJ5-QG-dm5">
+                                <rect key="frame" x="235" y="812" width="28" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVy-c8-7qG">
                                 <rect key="frame" x="304" y="797" width="28" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -115,51 +184,98 @@
                                 </buttonConfiguration>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="5wS-Mc-Wz5">
-                                <rect key="frame" x="312" y="25" width="90" height="103"/>
+                                <rect key="frame" x="304" y="88" width="90" height="103"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJ5-QG-dm5">
-                                <rect key="frame" x="235" y="812" width="28" height="28"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Girl Code" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMx-xK-qas">
+                                <rect key="frame" x="54" y="107" width="278" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <buttonConfiguration key="configuration" style="plain">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content=" ">
-                                            <attributes>
-                                                <font key="NSFont" size="12" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                </buttonConfiguration>
-                            </button>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="48"/>
+                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="6XF-R2-ifd" appends="YES" id="vlk-tU-xFB"/>
+                            <outletCollection property="gestureRecognizers" destination="bFG-8Y-BvB" appends="YES" id="tvZ-hO-8J6"/>
+                        </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="npk-c0-MzU"/>
+                    <navigationItem key="navigationItem" title="Home" id="npk-c0-MzU"/>
                     <connections>
+                        <outlet property="mainTitle" destination="CMx-xK-qas" id="cHj-p5-4D4"/>
                         <segue destination="cNR-Kd-zby" kind="show" identifier="goToSecond" id="BPl-Pb-H1k"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="6XF-R2-ifd"/>
+                <swipeGestureRecognizer direction="right" id="bFG-8Y-BvB"/>
             </objects>
-            <point key="canvasLocation" x="-23.188405797101453" y="69.642857142857139"/>
+            <point key="canvasLocation" x="-12" y="70"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Schollarships-->
         <scene sceneID="gaC-dS-iwh">
             <objects>
                 <viewController id="cNR-Kd-zby" customClass="SecondViewController" customModule="Girl_Code" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9rI-zv-oWr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="3Ch-Zi-PVb">
+                                <rect key="frame" x="20" y="776" width="374" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Za1-eG-8g1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Nbd-Hd-4ys"/>
+                    <navigationItem key="navigationItem" title="Schollarships" id="dLU-U3-e90"/>
+                    <connections>
+                        <segue destination="i1m-R3-l5r" kind="show" id="aYU-Jv-STx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="F3J-AX-ZrS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="696" y="70"/>
+            <point key="canvasLocation" x="684" y="70"/>
+        </scene>
+        <!--Opportunities-->
+        <scene sceneID="swt-zE-TsX">
+            <objects>
+                <viewController id="i1m-R3-l5r" customClass="ThirdViewController" customModule="Girl_Code" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qRK-sx-o7r">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="PLK-Zu-gEL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Opportunities" id="vuD-eJ-VHe">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="OBF-00-7bx"/>
+                    </navigationItem>
+                    <connections>
+                        <segue destination="lt5-Q2-fUT" kind="show" id="zUt-gu-bfs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MOX-ei-q5f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1387" y="70"/>
+        </scene>
+        <!--Main Chat-->
+        <scene sceneID="BNs-Y1-tuA">
+            <objects>
+                <viewController id="lt5-Q2-fUT" customClass="FourthViewController" customModule="Girl_Code" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zJ6-Je-Ih0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2gD-jn-wQM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Main Chat" id="Mna-K2-ihQ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lfb-Iz-gUO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2087" y="70"/>
         </scene>
     </scenes>
     <resources>

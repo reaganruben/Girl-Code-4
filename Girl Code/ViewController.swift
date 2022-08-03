@@ -7,13 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
+class ViewController: UIViewController
+{
+    @IBOutlet weak var mainTitle: UILabel!
+    
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
-
+    //override func performSegue(withIdentifier identifier: String, sender: Any?) {
+        <#code#>
+    }
 }
 

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7E0560F32899B184009BB747 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0560F22899B184009BB747 /* SecondViewController.swift */; };
+		7E0560F52899B2D4009BB747 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0560F42899B2D4009BB747 /* ThirdViewController.swift */; };
+		7E0560F72899B71B009BB747 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0560F62899B71B009BB747 /* FourthViewController.swift */; };
 		845ECA8A2899864D0090800D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECA892899864D0090800D /* AppDelegate.swift */; };
 		845ECA8C2899864D0090800D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECA8B2899864D0090800D /* SceneDelegate.swift */; };
 		845ECA8E2899864D0090800D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECA8D2899864D0090800D /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		7E0560F22899B184009BB747 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7E0560F42899B2D4009BB747 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		7E0560F62899B71B009BB747 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		845ECA862899864D0090800D /* Girl Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Girl Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845ECA892899864D0090800D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		845ECA8B2899864D0090800D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,9 +112,11 @@
 				84BB5D2E28998D84006E645A /* font */,
 				845ECA892899864D0090800D /* AppDelegate.swift */,
 				845ECA8B2899864D0090800D /* SceneDelegate.swift */,
-				845ECA8D2899864D0090800D /* ViewController.swift */,
 				845ECA8F2899864D0090800D /* Main.storyboard */,
+				845ECA8D2899864D0090800D /* ViewController.swift */,
 				7E0560F22899B184009BB747 /* SecondViewController.swift */,
+				7E0560F42899B2D4009BB747 /* ThirdViewController.swift */,
+				7E0560F62899B71B009BB747 /* FourthViewController.swift */,
 				845ECA95289986500090800D /* Assets.xcassets */,
 				845ECA97289986500090800D /* LaunchScreen.storyboard */,
 				845ECA9A289986500090800D /* Info.plist */,
@@ -271,7 +277,9 @@
 				845ECA8E2899864D0090800D /* ViewController.swift in Sources */,
 				845ECA8A2899864D0090800D /* AppDelegate.swift in Sources */,
 				845ECA942899864D0090800D /* Girl_Code.xcdatamodeld in Sources */,
+				7E0560F72899B71B009BB747 /* FourthViewController.swift in Sources */,
 				7E0560F32899B184009BB747 /* SecondViewController.swift in Sources */,
+				7E0560F52899B2D4009BB747 /* ThirdViewController.swift in Sources */,
 				845ECA8C2899864D0090800D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
