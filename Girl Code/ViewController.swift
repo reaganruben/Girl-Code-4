@@ -22,6 +22,9 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
     }
+   
+    
+
     
     var counter = 0
     @IBAction func generateSteminist(_ sender: UIButton)
