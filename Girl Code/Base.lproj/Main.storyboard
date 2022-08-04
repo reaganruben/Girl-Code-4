@@ -447,7 +447,7 @@ Cgo
                                                 <attributedString key="attributedText">
                                                     <fragment content="👾">
                                                         <attributes>
-                                                            <font key="NSFont" size="18" name=".AppleColorEmojiUI"/>
+                                                            <font key="NSFont" metaFont="system" size="18"/>
                                                             <font key="NSOriginalFont" size="18" name="Georgia"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
@@ -514,7 +514,7 @@ Cgo
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <mutableString key="content">High schoolers typically have more opportunities, especially in their junior and senior year. If you think you may be interested in STEM but are unsure which pathway to take, ask yourself which STEM-related class(es) you enjoy most in school. For example, if you loved Calculus but despised Biology and Chemistry, a biochemist may not be the career choice for you!</mutableString>
+                                                        <string key="content">High schoolers typically have more opportunities, especially in their junior and senior year. If you think you may be interested in STEM but are unsure which pathway to take, ask yourself which STEM-related class(es) you enjoy most in school. For example, if you loved Calculus but despised Biology and Chemistry, a biochemist may not be the career choice for you!</string>
                                                         <attributes>
                                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                             <font key="NSFont" size="18" name="Georgia"/>
@@ -546,7 +546,7 @@ Cgo
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <mutableString key="content"> Reach out to your teachers about potential opportunities, or call/email local businesses that work in the STEM industry to ask if they have any resources that they would be willing to share! If you are struggling to find businesses to contact, you can look up “science clubs near me,” “math organizations near me,” etc.</mutableString>
+                                                        <string key="content"> Reach out to your teachers about potential opportunities, or call/email local businesses that work in the STEM industry to ask if they have any resources that they would be willing to share! If you are struggling to find businesses to contact, you can look up “science clubs near me,” “math organizations near me,” etc.</string>
                                                         <attributes>
                                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                             <font key="NSFont" size="18" name="Georgia"/>
@@ -777,7 +777,7 @@ Cg
                                                     <fragment content="👾">
                                                         <attributes>
                                                             <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                            <font key="NSFont" size="17" name=".AppleColorEmojiUI"/>
+                                                            <font key="NSFont" metaFont="system" size="17"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                         </attributes>
                                                     </fragment>
@@ -1072,6 +1072,7 @@ Cg
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pol-IY-04V">
                                 <rect key="frame" x="131" y="148" width="153" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.64705884459999996" green="0.46666663889999999" blue="0.53725492949999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain">
@@ -1083,7 +1084,13 @@ Cg
                                             </attributes>
                                         </fragment>
                                     </attributedString>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="all:" destination="aDe-dh-Yfb" eventType="touchUpInside" id="WHp-Lz-dsE"/>
                                     <action selector="lowincome:" destination="aDe-dh-Yfb" eventType="touchUpInside" id="Zf2-bY-SAP"/>
