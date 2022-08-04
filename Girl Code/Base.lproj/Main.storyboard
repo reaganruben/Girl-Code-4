@@ -102,7 +102,7 @@
                                 <rect key="frame" x="159" y="451" width="100" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1OU-uB-FCo"/>
@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ptd-q5-fbd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1793" y="-2378"/>
+            <point key="canvasLocation" x="1792.753623188406" y="-2378.5714285714284"/>
         </scene>
         <!--Sign Up-->
         <scene sceneID="h6B-kB-F3H">
@@ -140,7 +140,7 @@
                                 <rect key="frame" x="159" y="456" width="135" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                 <connections>
                                     <action selector="passwordTextField:" destination="603-Jm-gwD" eventType="editingDidEnd" id="hmB-Po-hUU"/>
                                 </connections>
@@ -149,7 +149,7 @@
                                 <rect key="frame" x="159" y="498" width="144" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oc9-M2-CLK">
                                 <rect key="frame" x="170" y="540" width="75" height="31"/>
@@ -161,6 +161,13 @@
                                     <action selector="signUpPressed:" destination="603-Jm-gwD" eventType="touchUpInside" id="XdB-Zx-yIG"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Error Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vcp-UC-iDE">
+                                <rect key="frame" x="165" y="614" width="84" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="EkL-r7-5Nq"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -182,7 +189,6 @@
         <scene sceneID="NCy-6z-VAY">
             <objects>
                 <tabBarController id="e9Y-v5-B3E" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="ByD-NT-A9O"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="f0w-3w-9W1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -597,7 +603,7 @@ Cgo
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c12-8z-Ckb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2194" y="-242"/>
+            <point key="canvasLocation" x="2229" y="-242"/>
         </scene>
         <!--Opportunities-->
         <scene sceneID="z6Z-MV-8Md">
