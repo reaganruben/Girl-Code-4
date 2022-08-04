@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1826663E289C69BD0019C330 /* cerebri-sans-cufonfonts in Resources */ = {isa = PBXBuildFile; fileRef = 1826663D289C69BD0019C330 /* cerebri-sans-cufonfonts */; };
 		7E0560F32899B184009BB747 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0560F22899B184009BB747 /* SecondViewController.swift */; };
 		7E0560F52899B2D4009BB747 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0560F42899B2D4009BB747 /* ThirdViewController.swift */; };
 		7E0560F72899B71B009BB747 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0560F62899B71B009BB747 /* FourthViewController.swift */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1826663D289C69BD0019C330 /* cerebri-sans-cufonfonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "cerebri-sans-cufonfonts"; sourceTree = "<group>"; };
 		7E0560F22899B184009BB747 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7E0560F42899B2D4009BB747 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		7E0560F62899B71B009BB747 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		845ECA7D2899864C0090800D = {
 			isa = PBXGroup;
 			children = (
+				1826663D289C69BD0019C330 /* cerebri-sans-cufonfonts */,
 				845ECA882899864D0090800D /* Girl Code */,
 				845ECAA2289986510090800D /* Girl CodeTests */,
 				845ECAAC289986510090800D /* Girl CodeUITests */,
@@ -269,6 +272,7 @@
 				845ECA99289986500090800D /* LaunchScreen.storyboard in Resources */,
 				845ECA96289986500090800D /* Assets.xcassets in Resources */,
 				7EA0B0D3289C2F0700FB17EB /* GoogleService-Info.plist in Resources */,
+				1826663E289C69BD0019C330 /* cerebri-sans-cufonfonts in Resources */,
 				845ECA912899864D0090800D /* Main.storyboard in Resources */,
 				84BB5D2F28998D84006E645A /* font in Resources */,
 			);
