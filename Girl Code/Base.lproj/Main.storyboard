@@ -304,7 +304,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="2127"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VQQ-FK-nP0">
-                                        <rect key="frame" x="8" y="27" width="414" height="2600"/>
+                                        <rect key="frame" x="8" y="27" width="414" height="2509"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STEMinist Spotlight" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfR-Gk-MxP">
                                                 <rect key="frame" x="56" y="340" width="286" height="35"/>
