@@ -132,8 +132,8 @@
 				7E0560F62899B71B009BB747 /* FourthViewController.swift */,
 				845ECA95289986500090800D /* Assets.xcassets */,
 				845ECA97289986500090800D /* LaunchScreen.storyboard */,
-				845ECA9A289986500090800D /* Info.plist */,
 				845ECA922899864D0090800D /* Girl_Code.xcdatamodeld */,
+				845ECA9A289986500090800D /* Info.plist */,
 				7EA0B0D2289C2F0700FB17EB /* GoogleService-Info.plist */,
 			);
 			path = "Girl Code";

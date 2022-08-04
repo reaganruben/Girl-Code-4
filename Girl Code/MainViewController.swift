@@ -14,14 +14,4 @@ class MainViewController: UIViewController
     {
         super.viewDidLoad()
     }
-    
-    @IBAction func loginPressed(_ sender: UIButton)
-    {
-        
-    }
-    
-    @IBAction func signUpPressed(_ sender: UIButton)
-    {
-        
-    }
 }
