@@ -15,9 +15,12 @@ class SignUpViewController: UIViewController
     @IBOutlet weak var createPassword: UITextField!
     @IBOutlet weak var confirmPassword: UITextField!
     
+    @IBOutlet weak var errorLabel: UILabel!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        //errorLabel.isHidden
     }
     
     @IBAction func signUpPressed(_ sender: UIButton)

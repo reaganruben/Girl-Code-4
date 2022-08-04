@@ -177,6 +177,7 @@
                         <outlet property="confirmPassword" destination="nX2-AE-17Z" id="1pM-hg-Cdd"/>
                         <outlet property="createPassword" destination="rz2-Xm-4Sh" id="nTn-5K-DQa"/>
                         <outlet property="emailTextField" destination="25b-uo-hVJ" id="6Ch-cV-oaj"/>
+                        <outlet property="errorLabel" destination="vcp-UC-iDE" id="XKb-Pu-Xuf"/>
                         <segue destination="e9Y-v5-B3E" kind="show" identifier="completeSignUp" id="rxk-48-OZ5"/>
                     </connections>
                 </viewController>
@@ -639,7 +640,7 @@ Cgo
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="X8d-1u-Cqx"/>
+        <segue reference="rxk-48-OZ5"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="599" height="576"/>
