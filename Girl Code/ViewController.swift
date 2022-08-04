@@ -18,12 +18,11 @@ class ViewController: UIViewController
     @IBOutlet weak var steministScript: UILabel!
     var steministScriptArray = ["script1", "script2", "script3", "script4", "script5"]
     
-    
-    
     override func viewDidLoad()
     {
         super.viewDidLoad()
     }
+    
     var counter = 0
     @IBAction func generateSteminist(_ sender: UIButton)
     {
