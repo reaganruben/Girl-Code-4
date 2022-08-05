@@ -144,7 +144,7 @@
                                 <rect key="frame" x="168" y="481" width="78" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92515605690000002" green="0.8105012774" blue="0.89020425079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.92515605690000002" green="0.8105012774" blue="0.89020425079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted">
                                     <attributedString key="attributedTitle">
@@ -320,7 +320,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="2127"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VQQ-FK-nP0">
-                                        <rect key="frame" x="8" y="27" width="414" height="2509"/>
+                                        <rect key="frame" x="8" y="27" width="414" height="2466"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="STEMinist Spotlight" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfR-Gk-MxP">
                                                 <rect key="frame" x="56" y="340" width="286" height="35"/>
@@ -452,6 +452,7 @@ Cgo
                                                         </fragment>
                                                     </attributedString>
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                    <color key="baseBackgroundColor" red="0.92515605690000002" green="0.8105012774" blue="0.89020425079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
