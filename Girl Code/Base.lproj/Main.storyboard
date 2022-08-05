@@ -1253,9 +1253,12 @@ Cg
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="stemInternships:" destination="2Ew-c8-OFg" eventType="touchUpInside" id="scp-Dy-dnJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPl-RZ-W6j">
-                                <rect key="frame" x="126" y="447" width="157" height="58"/>
+                                <rect key="frame" x="131" y="453" width="157" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.45841278749999997" green="0.50589226050000002" blue="0.67158933580000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -1275,6 +1278,9 @@ Cg
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="allPrograms:" destination="2Ew-c8-OFg" eventType="touchUpInside" id="wjU-tf-7hQ"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Girl Code Prototype 6" translatesAutoresizingMaskIntoConstraints="NO" id="c6m-Xz-a7a">
                                 <rect key="frame" x="20" y="530" width="101" height="88"/>
@@ -1298,7 +1304,7 @@ Cg
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WvU-ID-yFQ">
-                                <rect key="frame" x="126" y="629" width="157" height="58"/>
+                                <rect key="frame" x="131" y="638" width="157" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.45841278749999997" green="0.50589226050000002" blue="0.67158933580000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -1318,6 +1324,9 @@ Cg
                                         <integer key="value" value="20"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="stemPrograms:" destination="2Ew-c8-OFg" eventType="touchUpInside" id="2d4-DX-6SI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UgO-fj-48y"/>
