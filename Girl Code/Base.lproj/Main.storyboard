@@ -129,26 +129,42 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f9X-AI-8Uh">
-                                <rect key="frame" x="159" y="409" width="100" height="34"/>
+                                <rect key="frame" x="132" y="371" width="150" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffq-tQ-BT4">
-                                <rect key="frame" x="178" y="493" width="60" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Login"/>
-                                <connections>
-                                    <action selector="loginPressed:" destination="Lxs-8U-iRg" eventType="touchUpInside" id="nML-Lq-8Gx"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wib-3b-GnS">
-                                <rect key="frame" x="159" y="451" width="100" height="34"/>
+                                <rect key="frame" x="132" y="420" width="150" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffq-tQ-BT4">
+                                <rect key="frame" x="168" y="481" width="78" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92515605690000002" green="0.8105012774" blue="0.89020425079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="0.92515605690000002" green="0.8105012774" blue="0.89020425079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Login">
+                                            <attributes>
+                                                <font key="NSFont" size="20" name="Georgia"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginPressed:" destination="Lxs-8U-iRg" eventType="touchUpInside" id="nML-Lq-8Gx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1OU-uB-FCo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -421,11 +437,27 @@ Cgo
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3s-Bv-gPI">
-                                                <rect key="frame" x="126" y="952" width="148" height="31"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3s-Bv-gPI">
+                                                <rect key="frame" x="98" y="950" width="204" height="37"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" red="0.92515605690000002" green="0.8105012774" blue="0.89020425079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" red="0.92515605690000002" green="0.8105012774" blue="0.89020425079999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="tinted" title="Generate Steminist"/>
+                                                <buttonConfiguration key="configuration" style="tinted">
+                                                    <attributedString key="attributedTitle">
+                                                        <fragment content="Generate STEMinist">
+                                                            <attributes>
+                                                                <font key="NSFont" size="20" name="Georgia"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="25"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="generateSteminist:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kJe-lq-8Ey"/>
                                                 </connections>
@@ -1196,7 +1228,7 @@ Cg
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rxk-48-OZ5"/>
+        <segue reference="X8d-1u-Cqx"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="599" height="576"/>
