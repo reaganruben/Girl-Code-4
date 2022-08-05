@@ -15,7 +15,12 @@ class ThirdViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func internshipsButton(_ sender: UIButton) {
+        let url = URL (string:
+        "https://docs.google.com/spreadsheets/d/1sfGCN9OOnyvXSnztzfwBXaS6ET5g5SeHL4vw6zngK_g/edit#gid=0")!
+        UIApplication.shared.open(url)
+    }
+    
     /*
     // MARK: - Navigation
 
