@@ -14,6 +14,13 @@
 		7E095DB6289AEA21004BE3FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E095DB5289AEA21004BE3FB /* MainViewController.swift */; };
 		7E095DB8289AEA40004BE3FB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E095DB7289AEA40004BE3FB /* LoginViewController.swift */; };
 		7E095DBA289AEB0C004BE3FB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E095DB9289AEB0B004BE3FB /* SignUpViewController.swift */; };
+		7E5D8D83289CC4620078B84B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D8D82289CC4620078B84B /* PhotoViewController.swift */; };
+		7E5D8D85289CC4710078B84B /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D8D84289CC4710078B84B /* VideoViewController.swift */; };
+		7E5D8D88289CC4E10078B84B /* AddChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D8D87289CC4E10078B84B /* AddChatViewController.swift */; };
+		7E5D8D8A289CC5100078B84B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D8D89289CC5100078B84B /* ProfileViewController.swift */; };
+		7E5D8D8C289CC51F0078B84B /* MainChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D8D8B289CC51F0078B84B /* MainChatViewController.swift */; };
+		7E5D8D8E289CCDDB0078B84B /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D8D8D289CCDDB0078B84B /* DatabaseManager.swift */; };
+		7E5D8DA8289CDD7B0078B84B /* Girl Code - Photos in Resources */ = {isa = PBXBuildFile; fileRef = 7E5D8DA7289CDD7B0078B84B /* Girl Code - Photos */; };
 		7EA0B0D3289C2F0700FB17EB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7EA0B0D2289C2F0700FB17EB /* GoogleService-Info.plist */; };
 		7EA0B0D6289C307F00FB17EB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 7EA0B0D5289C307F00FB17EB /* FirebaseAuth */; };
 		845ECA8A2899864D0090800D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845ECA892899864D0090800D /* AppDelegate.swift */; };
@@ -54,6 +61,13 @@
 		7E095DB5289AEA21004BE3FB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7E095DB7289AEA40004BE3FB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7E095DB9289AEB0B004BE3FB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7E5D8D82289CC4620078B84B /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		7E5D8D84289CC4710078B84B /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		7E5D8D87289CC4E10078B84B /* AddChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChatViewController.swift; sourceTree = "<group>"; };
+		7E5D8D89289CC5100078B84B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7E5D8D8B289CC51F0078B84B /* MainChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainChatViewController.swift; sourceTree = "<group>"; };
+		7E5D8D8D289CCDDB0078B84B /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		7E5D8DA7289CDD7B0078B84B /* Girl Code - Photos */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Girl Code - Photos"; path = "../../../../Desktop/Kode with Klossy/Girl Code - Photos"; sourceTree = "<group>"; };
 		7EA0B0D2289C2F0700FB17EB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		845ECA862899864D0090800D /* Girl Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Girl Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		845ECA892899864D0090800D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +112,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E5D8D81289CC42C0078B84B /* Main Chat */ = {
+			isa = PBXGroup;
+			children = (
+				7E5D8D8B289CC51F0078B84B /* MainChatViewController.swift */,
+				7E5D8D82289CC4620078B84B /* PhotoViewController.swift */,
+				7E5D8D84289CC4710078B84B /* VideoViewController.swift */,
+				7E5D8D87289CC4E10078B84B /* AddChatViewController.swift */,
+				7E5D8D89289CC5100078B84B /* ProfileViewController.swift */,
+			);
+			path = "Main Chat";
+			sourceTree = "<group>";
+		};
+		7E5D8D86289CC4850078B84B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7E095DB5289AEA21004BE3FB /* MainViewController.swift */,
+				7E095DB7289AEA40004BE3FB /* LoginViewController.swift */,
+				7E095DB9289AEB0B004BE3FB /* SignUpViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7E5D8D96289CD3650078B84B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				845ECA8D2899864D0090800D /* ViewController.swift */,
+				7E5D8DA7289CDD7B0078B84B /* Girl Code - Photos */,
+				7E0560F22899B184009BB747 /* SecondViewController.swift */,
+				7E0560F42899B2D4009BB747 /* ThirdViewController.swift */,
+				7E0560F62899B71B009BB747 /* FourthViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		845ECA7D2899864C0090800D = {
 			isa = PBXGroup;
 			children = (
@@ -125,14 +173,11 @@
 				84BB5D2E28998D84006E645A /* font */,
 				845ECA892899864D0090800D /* AppDelegate.swift */,
 				845ECA8B2899864D0090800D /* SceneDelegate.swift */,
+				7E5D8D8D289CCDDB0078B84B /* DatabaseManager.swift */,
 				845ECA8F2899864D0090800D /* Main.storyboard */,
-				7E095DB5289AEA21004BE3FB /* MainViewController.swift */,
-				7E095DB7289AEA40004BE3FB /* LoginViewController.swift */,
-				7E095DB9289AEB0B004BE3FB /* SignUpViewController.swift */,
-				845ECA8D2899864D0090800D /* ViewController.swift */,
-				7E0560F22899B184009BB747 /* SecondViewController.swift */,
-				7E0560F42899B2D4009BB747 /* ThirdViewController.swift */,
-				7E0560F62899B71B009BB747 /* FourthViewController.swift */,
+				7E5D8D86289CC4850078B84B /* Login */,
+				7E5D8D96289CD3650078B84B /* Main */,
+				7E5D8D81289CC42C0078B84B /* Main Chat */,
 				845ECA95289986500090800D /* Assets.xcassets */,
 				845ECA97289986500090800D /* LaunchScreen.storyboard */,
 				845ECA922899864D0090800D /* Girl_Code.xcdatamodeld */,
@@ -271,6 +316,7 @@
 			files = (
 				845ECA99289986500090800D /* LaunchScreen.storyboard in Resources */,
 				845ECA96289986500090800D /* Assets.xcassets in Resources */,
+				7E5D8DA8289CDD7B0078B84B /* Girl Code - Photos in Resources */,
 				7EA0B0D3289C2F0700FB17EB /* GoogleService-Info.plist in Resources */,
 				1826663E289C69BD0019C330 /* cerebri-sans-cufonfonts in Resources */,
 				845ECA912899864D0090800D /* Main.storyboard in Resources */,
@@ -299,16 +345,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5D8D8E289CCDDB0078B84B /* DatabaseManager.swift in Sources */,
 				7E095DB8289AEA40004BE3FB /* LoginViewController.swift in Sources */,
 				845ECA8E2899864D0090800D /* ViewController.swift in Sources */,
+				7E5D8D85289CC4710078B84B /* VideoViewController.swift in Sources */,
 				845ECA8A2899864D0090800D /* AppDelegate.swift in Sources */,
+				7E5D8D8C289CC51F0078B84B /* MainChatViewController.swift in Sources */,
+				7E5D8D8A289CC5100078B84B /* ProfileViewController.swift in Sources */,
 				845ECA942899864D0090800D /* Girl_Code.xcdatamodeld in Sources */,
+				7E5D8D88289CC4E10078B84B /* AddChatViewController.swift in Sources */,
 				7E095DBA289AEB0C004BE3FB /* SignUpViewController.swift in Sources */,
 				7E0560F72899B71B009BB747 /* FourthViewController.swift in Sources */,
 				7E0560F32899B184009BB747 /* SecondViewController.swift in Sources */,
 				7E0560F52899B2D4009BB747 /* ThirdViewController.swift in Sources */,
 				845ECA8C2899864D0090800D /* SceneDelegate.swift in Sources */,
 				7E095DB6289AEA21004BE3FB /* MainViewController.swift in Sources */,
+				7E5D8D83289CC4620078B84B /* PhotoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

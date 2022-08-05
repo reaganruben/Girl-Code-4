@@ -1,13 +1,13 @@
 //
-//  FourthViewController.swift
+//  PhotoViewController.swift
 //  Girl Code
 //
-//  Created by Reagan Ruben on 8/2/22.
+//  Created by Reagan Ruben on 8/4/22.
 //
 
 import UIKit
 
-class FourthViewController: UIViewController {
+class PhotoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

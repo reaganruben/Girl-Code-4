@@ -980,6 +980,7 @@ Cg
                         <outlet property="mainTitle" destination="CMx-xK-qas" id="cHj-p5-4D4"/>
                         <outlet property="steministLabel" destination="VfR-Gk-MxP" id="Hgq-6j-6R6"/>
                         <outlet property="steministName" destination="1v2-gJ-knU" id="o9C-pA-liR"/>
+                        <outlet property="steministPhoto" destination="RPl-e1-X48" id="hqT-VZ-gKG"/>
                         <outlet property="steministScript" destination="dy2-PT-4xW" id="8tA-4y-Ogh"/>
                     </connections>
                 </viewController>
